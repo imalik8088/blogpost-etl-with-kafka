@@ -1,0 +1,13 @@
+{
+  "name": "twitter-source",
+  "config": {
+    "connector.class": "com.eneco.trading.kafka.connect.twitter.TwitterSourceConnector",
+    "tasks.max": "1",
+    "track.terms": "frankfurt",
+    "topic": "twitter",
+    "twitter.secret": "YOUR_KEY",
+    "twitter.token": "YOUR_KEY",
+    "twitter.consumersecret": "YOUR_KEY",
+    "twitter.consumerkey": "YOUR_KEY"
+  }
+}
